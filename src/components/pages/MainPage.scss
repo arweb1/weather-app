@@ -1,0 +1,14 @@
+.MainPage {
+display: flex;
+    .mainPage{
+        flex: 80%;
+        padding: 50px;
+        display: sticky;
+        overflow-y: auto;
+        height: 100vh;
+    }
+    .sidebar{
+        flex: 20%;
+        border-left: 1px solid #e1e8ec;
+    }
+}
